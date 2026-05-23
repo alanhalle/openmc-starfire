@@ -92,7 +92,11 @@ Scikit-learn `GaussianProcessRegressor` in log₁₀(flux) space.
 
 ## Citation
 
-Halley, C.A. & Miller, L.G. (1986). *Neutron streaming through gaps in fusion reactor shielding.* [Original MORSE-CG calculations by Alan Halley; this repo is an OpenMC reproduction.]
+Halley, C.A. & Miller, L.G. (1986). Neutron streaming through gaps in fusion reactor shielding. *Fusion Technology*, 10(3), 878–883.  
+DOI: [10.13182/FST86-A24782](https://doi.org/10.13182/FST86-A24782)  
+Free ePrint: https://www.tandfonline.com/eprint/HPSVMVPVRBC5VBCTDTWU/full?target=10.13182/FST86-A24782
+
+*Original calculations performed by Alan Halley using MORSE-CG. This repository reproduces those results with OpenMC 0.15.3.*
 
 ## Author
 
