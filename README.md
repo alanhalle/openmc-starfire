@@ -1,5 +1,7 @@
 # OpenMC STARFIRE Gap Streaming
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alanhalle/openmc-starfire/blob/main/openmc_starfire.ipynb)
+
 Reproduce **Halley & Miller (1986)**, *Neutron Streaming Through Gaps in Fusion Reactor Shielding*, using [OpenMC](https://openmc.org) 0.15.3 on Google Colab free tier, then fit a Gaussian Process surrogate on the parametric dataset.
 
 ## Background
@@ -82,7 +84,7 @@ Scikit-learn `GaussianProcessRegressor` in log₁₀(flux) space.
 
 ## Running the Notebook
 
-1. Open `openmc_starfire.ipynb` in [Google Colab](https://colab.research.google.com)
+1. Open `openmc_starfire.ipynb` in [Google Colab](https://colab.research.google.com) (or click the badge above)
 2. Mount Google Drive — the notebook caches compiled binaries and nuclear data there (~400 MB total)
 3. Run **Cell A** (installs OpenMC; ~30 sec if cached, ~20 min first time)
 4. Run **Cell B** (verify), **Cell C** (nuclear data, one-time ~15 min), **Cell D** (smoke test)
