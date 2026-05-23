@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "code": "OpenMC 0.15.3",
+    "nuclear_data": "ENDF/B-VIII.0 (B10 from ENDF/B-VII.1)",
+    "geometry": "STARFIRE tokamak shield, 108 cm (50 TiH2 + 40 B4C + 18 Fe1422)",
+    "source": "14.1 MeV mono-energetic, forward-directed plane source",
+    "tally": "volume-integrated flux, detector void 200x100x22 cm",
+    "det_volume_cm3": 440000,
+    "batches": 200,
+    "particles_per_batch": 50000,
+    "date": "2026-05-23",
+    "note": "flux units: n*cm per source-n (vol-integrated). Divide by det_volume_cm3 for average flux in n/cm2 per source-n."
+  },
+  "straight_slots": [
+    {"gap_type": "straight", "width_cm": 1.0,  "offset_cm": 0.0, "flux_vol_int": 1.1123e-1, "rel_err": 0.005},
+    {"gap_type": "straight", "width_cm": 2.0,  "offset_cm": 0.0, "flux_vol_int": 2.2145e-1, "rel_err": 0.003},
+    {"gap_type": "straight", "width_cm": 5.0,  "offset_cm": 0.0, "flux_vol_int": 5.5724e-1, "rel_err": 0.002},
+    {"gap_type": "straight", "width_cm": 10.0, "offset_cm": 0.0, "flux_vol_int": 1.1243e+0, "rel_err": 0.001}
+  ],
+  "stepped_slots": [
+    {"gap_type": "stepped", "width_cm": 1.0, "offset_cm": 2.5,  "flux_vol_int": 3.6202e-3, "rel_err": 0.041},
+    {"gap_type": "stepped", "width_cm": 1.0, "offset_cm": 5.0,  "flux_vol_int": 3.5729e-3, "rel_err": 0.047},
+    {"gap_type": "stepped", "width_cm": 1.0, "offset_cm": 10.0, "flux_vol_int": 3.2396e-3, "rel_err": 0.039},
+    {"gap_type": "stepped", "width_cm": 2.0, "offset_cm": 2.5,  "flux_vol_int": 9.2993e-3, "rel_err": 0.029},
+    {"gap_type": "stepped", "width_cm": 2.0, "offset_cm": 5.0,  "flux_vol_int": 7.3288e-3, "rel_err": 0.037},
+    {"gap_type": "stepped", "width_cm": 2.0, "offset_cm": 10.0, "flux_vol_int": 6.3946e-3, "rel_err": 0.038},
+    {"gap_type": "stepped", "width_cm": 5.0, "offset_cm": 2.5,  "flux_vol_int": 2.9945e-1, "rel_err": 0.006, "note": "overlap regime: offset < half-width"},
+    {"gap_type": "stepped", "width_cm": 5.0, "offset_cm": 5.0,  "flux_vol_int": 4.1717e-2, "rel_err": 0.013},
+    {"gap_type": "stepped", "width_cm": 5.0, "offset_cm": 10.0, "flux_vol_int": 2.0238e-2, "rel_err": 0.018}
+  ],
+  "solid_shield": [
+    {"gap_type": "none", "width_cm": 0.0, "offset_cm": 0.0, "flux_vol_int": 9.4997e-4, "rel_err": 0.086,
+     "note": "dominated by fast-neutron bypass; variance reduction needed for true scattering background"}
+  ]
+}
