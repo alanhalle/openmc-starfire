@@ -1,0 +1,184 @@
+[
+  {
+    "key": [
+      "straight",
+      1.0,
+      0.0
+    ],
+    "kind": "straight",
+    "width_cm": 1.0,
+    "offset_cm": 0.0,
+    "flux": 2.5e-09,
+    "rel_err": 0.052,
+    "method": "analog"
+  },
+  {
+    "key": [
+      "solid",
+      0.0,
+      0.0
+    ],
+    "kind": "solid",
+    "width_cm": 0.0,
+    "offset_cm": 0.0,
+    "flux": 5.37e-10,
+    "rel_err": 0.017,
+    "method": "ww"
+  },
+  {
+    "key": [
+      "stepped",
+      1.0,
+      5.0
+    ],
+    "kind": "stepped",
+    "width_cm": 1.0,
+    "offset_cm": 5.0,
+    "flux": 6.42e-10,
+    "rel_err": 0.018,
+    "method": "ww"
+  },
+  {
+    "key": [
+      "straight",
+      2.0,
+      0.0
+    ],
+    "kind": "straight",
+    "width_cm": 2.0,
+    "offset_cm": 0.0,
+    "flux": 7.255505544813972e-09,
+    "rel_err": 0.0755790379189916,
+    "method": "analog"
+  },
+  {
+    "key": [
+      "straight",
+      5.0,
+      0.0
+    ],
+    "kind": "straight",
+    "width_cm": 5.0,
+    "offset_cm": 0.0,
+    "flux": 5.275478595949173e-08,
+    "rel_err": 0.035040063939889225,
+    "method": "analog"
+  },
+  {
+    "key": [
+      "straight",
+      10.0,
+      0.0
+    ],
+    "kind": "straight",
+    "width_cm": 10.0,
+    "offset_cm": 0.0,
+    "flux": 2.3708127048761456e-07,
+    "rel_err": 0.03254533115646098,
+    "method": "analog"
+  },
+  {
+    "key": [
+      "stepped",
+      1.0,
+      2.5
+    ],
+    "kind": "stepped",
+    "width_cm": 1.0,
+    "offset_cm": 2.5,
+    "flux": 6.446797824100961e-10,
+    "rel_err": 0.01663056943948215,
+    "method": "ww"
+  },
+  {
+    "key": [
+      "stepped",
+      1.0,
+      10.0
+    ],
+    "kind": "stepped",
+    "width_cm": 1.0,
+    "offset_cm": 10.0,
+    "flux": 6.304513501020839e-10,
+    "rel_err": 0.014786854731072555,
+    "method": "ww"
+  },
+  {
+    "key": [
+      "stepped",
+      2.0,
+      2.5
+    ],
+    "kind": "stepped",
+    "width_cm": 2.0,
+    "offset_cm": 2.5,
+    "flux": 1.3073507133903506e-09,
+    "rel_err": 0.02798584706257806,
+    "method": "ww"
+  },
+  {
+    "key": [
+      "stepped",
+      2.0,
+      5.0
+    ],
+    "kind": "stepped",
+    "width_cm": 2.0,
+    "offset_cm": 5.0,
+    "flux": 9.81655420119164e-10,
+    "rel_err": 0.019240398176533256,
+    "method": "ww"
+  },
+  {
+    "key": [
+      "stepped",
+      2.0,
+      10.0
+    ],
+    "kind": "stepped",
+    "width_cm": 2.0,
+    "offset_cm": 10.0,
+    "flux": 8.840664762563036e-10,
+    "rel_err": 0.014640156252079888,
+    "method": "ww"
+  },
+  {
+    "key": [
+      "stepped",
+      5.0,
+      2.5
+    ],
+    "kind": "stepped",
+    "width_cm": 5.0,
+    "offset_cm": 2.5,
+    "flux": 3.699538979439799e-08,
+    "rel_err": 0.03854546984378935,
+    "method": "ww"
+  },
+  {
+    "key": [
+      "stepped",
+      5.0,
+      5.0
+    ],
+    "kind": "stepped",
+    "width_cm": 5.0,
+    "offset_cm": 5.0,
+    "flux": 1.097546912344841e-08,
+    "rel_err": 0.06925384103626449,
+    "method": "analog"
+  },
+  {
+    "key": [
+      "stepped",
+      5.0,
+      10.0
+    ],
+    "kind": "stepped",
+    "width_cm": 5.0,
+    "offset_cm": 10.0,
+    "flux": 3.6175047960032166e-09,
+    "rel_err": 0.014769823224788661,
+    "method": "ww"
+  }
+]
