@@ -1,6 +1,8 @@
 # OpenMC STARFIRE Gap Streaming
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alanhalle/openmc-starfire/blob/main/openmc_starfire.ipynb)
+[![Paper DOI](https://img.shields.io/badge/paper-10.5281%2Fzenodo.22810354-blue)](https://doi.org/10.5281/zenodo.22810354)
+[![Code DOI](https://img.shields.io/badge/code-10.5281%2Fzenodo.21418400-blue)](https://doi.org/10.5281/zenodo.21418400)
 
 Reproduce **Halley & Miller (1986)**, *Neutron Streaming Through Gaps in Fusion Reactor Shielding*, using [OpenMC](https://openmc.org) 0.15.3 on Google Colab free tier, then fit a Gaussian Process surrogate on the parametric dataset.
 
@@ -94,9 +96,23 @@ Scikit-learn `GaussianProcessRegressor` in log₁₀(flux) space.
 
 ## Citation
 
-Halley, C.A. & Miller, L.G. (1986). Neutron streaming through gaps in fusion reactor shielding. *Fusion Technology*, 10(3), 878–883.  
+**The paper** (cite this for the work itself):
+
+Halley, A. M. (2026). *In-Code MAGIC Weight Windows for Deep-Penetration Gap Streaming: A Fully Reproducible Open-Source Benchmark Derived from a 1984 Fusion Shield Study.* Preprint.  
+DOI: [10.5281/zenodo.22810354](https://doi.org/10.5281/zenodo.22810354)
+
+**This repository** (cite this for the code and data):
+
+DOI: [10.5281/zenodo.21418400](https://doi.org/10.5281/zenodo.21418400)
+
+**The original study being reproduced:**
+
+Halley, A. M. & Miller, W. H. (1986). Neutron streaming through gaps in fusion reactor shielding. *Fusion Technology*, **10**, 424–430.  
 DOI: [10.13182/FST86-A24782](https://doi.org/10.13182/FST86-A24782)  
 Free ePrint: https://www.tandfonline.com/eprint/HPSVMVPVRBC5VBCTDTWU/full?target=10.13182/FST86-A24782
+
+Halley, A. M. (1984). *Neutron Streaming Through Straight and Stepped Gaps in Fusion Reactor Shielding.* M.S. thesis, University of Missouri–Columbia.  
+DOI: [10.32469/10355/112299](https://doi.org/10.32469/10355/112299)
 
 *Original calculations performed by Alan Halley using MORSE-CG. This repository reproduces those results with OpenMC 0.15.3.*
 
