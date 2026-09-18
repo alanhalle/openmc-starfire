@@ -10,7 +10,7 @@
     "offset_cm": 0.0,
     "flux": 2.5e-09,
     "rel_err": 0.052,
-    "method": "analog"
+    "method": "ww"
   },
   {
     "key": [

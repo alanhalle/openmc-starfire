@@ -2,11 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "OpenMC STARFIRE gap-streaming reproduction"
 abstract: >-
-  OpenMC model, mesh-based weight-window variance-reduction workflow,
-  parametric dataset, and Gaussian-process surrogate-fitting code for an
-  independent reproduction of the 1986 Halley & Miller study of 14-MeV
-  neutron streaming through straight and stepped gaps in the STARFIRE
-  conceptual tokamak shield.
+  OpenMC model, in-code MAGIC mesh-based weight-window variance-reduction
+  workflow, and parametric dataset for an independent reproduction of the
+  1986 Halley & Miller study of 14-MeV neutron streaming through straight
+  and stepped gaps in the STARFIRE conceptual tokamak shield.
 type: software
 authors:
   - family-names: Halley
@@ -20,5 +19,6 @@ keywords:
   - Monte Carlo
   - weight-window variance reduction
   - fusion reactor shielding
-  - Gaussian-process surrogate
+  - deep penetration
+  - MAGIC
   - OpenMC
